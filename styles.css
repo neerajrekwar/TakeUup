@@ -72,7 +72,7 @@ main {
   align-items: center;
   text-align: center;
   background-color: rgba(118, 129, 111, 0.507);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px);
   margin: 20px 20px 0px 20px;
   border-radius: 15px;
 }
