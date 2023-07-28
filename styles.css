@@ -147,6 +147,8 @@ footer{
   /* border: 2px solid greenyellow; */
   display: block;
   color: aliceblue;
+  position: relative;
+  bottom: 0px;
 }
  footer .cyrt{
    margin: 0 auto;
