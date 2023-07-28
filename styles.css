@@ -145,13 +145,21 @@ a {
 
 footer{
   border: 2px solid greenyellow;
-  display: flex;
+  display: block;
   color: aliceblue;
 }
+ footer .cyrt{
+   margin: 0 auto;
+}
+#ur:hover{
+  color: rgb(224, 0, 0);
+}
+
 
 @media screen and (max-width: 500px) {
   nav {
     display: none;
+    font-size: 2.0em 100px / 1em 50px;
   }
   body{
     background: rgba(0, 3, 7, 0.753);
