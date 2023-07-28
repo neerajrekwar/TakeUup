@@ -144,7 +144,7 @@ a {
 
 
 footer{
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   display: block;
   color: aliceblue;
 }
