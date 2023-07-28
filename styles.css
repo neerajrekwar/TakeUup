@@ -153,5 +153,8 @@ footer{
   nav {
     display: none;
   }
+  body{
+    object-fit: cover;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
