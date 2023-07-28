@@ -154,6 +154,14 @@ footer{
     display: none;
   }
   body{
+    background: rgba(0, 3, 7, 0.753);
+    background-image: url(images/bg-wlpar.jpg);
+    width: 100%;
+    -o-object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     object-fit: cover;
   }
 }
