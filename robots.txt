@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /search
-Allow: /
+Disallow: 
+Disallow: /cgi-bin/
 
-Sitemap: https://imgsequence.netlify.app/sitemap.xml
+Sitemap: https://websequence.netlify.app/sitemap.xml
