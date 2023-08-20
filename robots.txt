@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: 
-Disallow: /cgi-bin/
 
 Sitemap: https://websequence.netlify.app/sitemap.xml
