@@ -34,6 +34,7 @@ header {
 }
 
 body {
+  height: 100vh;
   background: rgba(0, 3, 7, 0.753);
   background-image: url(images/bg-wlpar.jpg);
   -o-object-fit: contain;
