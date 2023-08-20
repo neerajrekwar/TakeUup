@@ -48,7 +48,6 @@ body {
 
 main {
   height: 100vh;
-  overflow: hidden;
   /* border: 2px solid rgb(181, 181, 192); */
 }
 .container {
