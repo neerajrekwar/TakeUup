@@ -1,3 +1,50 @@
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+
+  [[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  filePath = "https://websequence.netlify.app/sitemap.xml"
+
+  [[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  # disable pretty URLS and keep `index.html` & trailing `.html` file references in paths
+  prettyURLs = false
+
+  [[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  prettyURLs = true
+  # Append missing trailing slash to pretty URL
+  trailingSlash = true
+
+  [[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  changeFreq = "daily"
+  priority = 0.5
+
+  
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  baseUrl = "https://websequence.netlify.app"
+
 [build]
   publish = "public"
 
