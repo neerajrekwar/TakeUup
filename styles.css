@@ -188,6 +188,15 @@ footer .cyrt {
   color: rgb(224, 0, 0);
 }
 
+.btn{
+  height: 2.1rem;
+  width: 4.1rem;
+  outline: none;
+  border: none;
+}
+.btn:hover{
+  color: yellowgreen;
+}
 
 @media screen and (max-width: 500px) {
   nav {
