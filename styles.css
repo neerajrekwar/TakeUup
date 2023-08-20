@@ -151,10 +151,7 @@ a {
 }
 
 footer{
-  /* border: 2px solid greenyellow; */
-  display: block;
   color: aliceblue;
-   bottom: 0px;
 }
  footer .cyrt{
    margin: 0 auto;
@@ -178,7 +175,7 @@ footer{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    object-fit: cover;
+    object-fit: fill;
   }
 }
 /*# sourceMappingURL=styles.css.map */
