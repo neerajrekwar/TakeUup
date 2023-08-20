@@ -9,8 +9,8 @@
 	# The base url of your site (optional, default = main URL set in Netlify)
 	baseUrl = "https://websequence.netlify.app"
 
-	# Path to the sitemap URL (optional, default = /sitemap.xml)
-	sitemapPath = "/sitemap.xml"
+	# Path to the sitemap URL (optional, default = /web-sitemap.xml)
+	sitemapPath = "/web-sitemap.xml"
 
 	# Time in seconds to not submit the sitemap after successful submission
 	ignorePeriod = 0
