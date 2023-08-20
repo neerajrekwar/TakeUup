@@ -3,10 +3,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Alata", sans-serif;
+  font-family: 'Alata', sans-serif;
   font-size: 16px;
 }
-a:focus{
+a:focus {
   text-decoration: none;
 }
 
@@ -16,7 +16,8 @@ h3,
 h4,
 h5,
 h6,
-p, div {
+p,
+div {
   margin: 0;
   padding: 0;
 }
@@ -43,13 +44,12 @@ body {
   background-attachment: fixed;
   background-position: center;
   object-fit: cover;
-
 }
 
 main {
   margin: 0 auto;
   max-width: 80%;
-  
+
   /* border: 2px solid rgb(181, 181, 192); */
 }
 .container {
@@ -68,7 +68,7 @@ main {
   align-items: center;
   height: auto;
 }
-.card{
+.card {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -78,13 +78,13 @@ main {
   margin: 20px 20px 0px 20px;
   border-radius: 15px;
 }
-h1{
+h1 {
   /* text-align: left; */
   color: beige;
   font-size: 1.5em;
   margin: 20px 3px;
 }
-p{
+p {
   margin: 20px 5px;
   color: rgb(255, 255, 255);
 }
@@ -107,7 +107,6 @@ li {
 }
 
 a {
-
   font-size: larger;
   text-decoration: none;
   color: greenyellow;
@@ -118,7 +117,7 @@ a {
 }
 
 .nvlink::before {
-  content: "";
+  content: '';
   position: absolute;
   margin-bottom: -1px;
   left: 0;
@@ -145,19 +144,47 @@ a {
   text-decoration-thickness: 6px;
 }
 
-
-.contact-box{
+.contact-box {
   color: black;
+}
+/* netlify form styles start */
+
+form {
+}
+label{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border:  2px solid rgb(231, 200, 25); */
+  height: 2.5rem;
+  
 
 }
+input {
+  outline-color: rgb(150, 226, 51);
+  height: 1.5em;
+  width: 280px;
+  color: #404040;
+}
+select{
+  width: 200px;
+  height: 4vh;
+}
+option{
+  display: flex;
+  justify-content: center;
 
-footer{
+
+}
+/* netlify form styles end */
+footer {
   color: aliceblue;
+  text-align: center;
 }
- footer .cyrt{
-   margin: 0 auto;
+footer .cyrt {
+  margin: 10px 0;
 }
-#ur:hover{
+#ur:hover {
   color: rgb(224, 0, 0);
 }
 
@@ -165,9 +192,9 @@ footer{
 @media screen and (max-width: 500px) {
   nav {
     display: none;
-    font-size: 2.0em 100px / 1em 50px;
+    font-size: 2em 100px / 1em 50px;
   }
-  body{
+  body {
     background: rgba(0, 3, 7, 0.753);
     background-image: url(images/bg-wlpar.jpg);
     width: 100%;
