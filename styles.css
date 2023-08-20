@@ -168,13 +168,15 @@ input {
 }
 select {
   width: 200px;
-  height: 4vh;
+  height: 6vh;
   border-radius: 3px;
 }
 option {
+  background-color: yellow;
   border-radius: 3px;
   display: flex;
   justify-content: center;
+  
 }
 /* netlify form styles end */
 footer {
