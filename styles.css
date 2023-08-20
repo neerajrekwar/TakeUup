@@ -47,7 +47,7 @@ body {
 
 main {
   margin: 0 auto;
-  width: 80%;
+  max-width: 80%;
   
   /* border: 2px solid rgb(181, 181, 192); */
 }
