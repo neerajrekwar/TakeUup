@@ -151,30 +151,30 @@ a {
 
 form {
 }
-label{
+label {
   display: flex;
   justify-content: left;
   align-items: center;
   /* border:  2px solid rgb(231, 200, 25); */
   height: 2.5rem;
-  
-
 }
 input {
   outline-color: rgb(150, 226, 51);
   height: 1.5em;
   width: 280px;
   color: #404040;
+  border-radius: 3px;
+  border: none;
 }
-select{
+select {
   width: 200px;
   height: 4vh;
+  border-radius: 3px;
 }
-option{
+option {
+  border-radius: 3px;
   display: flex;
   justify-content: center;
-
-
 }
 /* netlify form styles end */
 footer {
@@ -188,16 +188,19 @@ footer .cyrt {
   color: rgb(224, 0, 0);
 }
 
-.btn{
+.btn {
   height: 2.1rem;
   width: 4.1rem;
   outline: none;
   border: none;
+  border-radius: 3px;
 }
-.btn:hover{
+.btn:hover {
   color: yellowgreen;
 }
-
+textarea {
+  border-radius: 3px;
+}
 @media screen and (max-width: 500px) {
   nav {
     display: none;
