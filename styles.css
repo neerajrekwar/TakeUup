@@ -46,6 +46,8 @@ body {
 }
 
 main {
+  margin: 0 auto;
+  max-width: 80%;
   height: 100vh;
   /* border: 2px solid rgb(181, 181, 192); */
 }
