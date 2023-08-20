@@ -168,11 +168,10 @@ input {
 }
 select {
   width: 200px;
-  height: 6vh;
+  height: 10vh;
   border-radius: 3px;
 }
 option {
-  background-color: yellow;
   border-radius: 3px;
   display: flex;
   justify-content: center;
