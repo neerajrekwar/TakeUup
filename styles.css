@@ -47,8 +47,8 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 80%;
-  height: 100vh;
+  width: 80%;
+  
   /* border: 2px solid rgb(181, 181, 192); */
 }
 .container {
