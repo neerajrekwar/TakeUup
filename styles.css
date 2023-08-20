@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(255, 255, 255);
   font-family: "Alata", sans-serif;
   font-size: 16px;
 }
@@ -143,6 +142,11 @@ a {
   text-decoration-thickness: 6px;
 }
 
+
+.contact-box{
+  color: black;
+
+}
 
 footer{
   /* border: 2px solid greenyellow; */
