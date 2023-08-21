@@ -38,7 +38,7 @@ package = "@netlify/plugin-sitemap"
 	baseUrl = "https://websequence.netlify.app"
 
 	# Path to the sitemap URL (optional, default = /web-sitemap.xml)
-	sitemapPath = "/web-sitemap.xml"
+	sitemapPath = "/sitemap.xml"
 
 	# Time in seconds to not submit the sitemap after successful submission
 	ignorePeriod = 0
