@@ -63,5 +63,5 @@ package = "@netlify/plugin-sitemap"
 	providers = [
 		"google",
 		"yandex",
-        "bing"
+                "bing"
 	]
