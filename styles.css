@@ -137,11 +137,11 @@ a {
 
 #logo {
   margin-left: 0.8em;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: bold;
   /* letter-spacing: -3.2px; */
-  -webkit-text-decoration-line: underline;
-  text-decoration-line: underline;
+  /* -webkit-text-decoration-line: underline; */
+  /* text-decoration-line: underline; */
   text-decoration-thickness: 6px;
 }
 
