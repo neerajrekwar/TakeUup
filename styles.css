@@ -103,7 +103,7 @@ ul {
 }
 
 li {
-  margin: 1em;
+  margin: 10px;
   list-style: none;
 }
 
@@ -203,7 +203,7 @@ footer .cyrt {
 textarea {
   border-radius: 3px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   nav {
     display: none;
     font-size: 2em 100px / 1em 50px;
@@ -219,5 +219,12 @@ textarea {
     background-position: center;
     object-fit: fill;
   }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+  
 }
 /*# sourceMappingURL=styles.css.map */
