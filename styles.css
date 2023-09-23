@@ -1,0 +1,231 @@
+* {
+  /*# sourceMappingURL=styles.css.map */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alata', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+a:focus {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  /* border: 2px solid greenyellow; */
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--color-background-primary-r);
+}
+
+body {
+  height: 100vh;
+  background: rgba(0, 3, 7, 0.753);
+  background-image: url(images/bg-wlpar.jpg);
+  -o-object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: cover;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+
+  /* border: 2px solid rgb(181, 181, 192); */
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(336, 2fr)); */
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.507);
+  backdrop-filter: blur(1px);
+  margin: 20px 20px 0px 20px;
+  padding: 30px;
+  border-radius: 15px;
+}
+h1 {
+  /* text-align: left; */
+  color: beige;
+  font-size: 1.5em;
+  margin: 20px 3px;
+}
+p {
+  margin: 20px 5px;
+  color: rgb(255, 255, 255);
+}
+nav {
+  color: rgb(0, 0, 0);
+  margin-right: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+}
+
+li {
+  margin: 10px;
+  list-style: none;
+}
+
+a {
+  font-size: larger;
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.nvlink {
+  position: relative;
+}
+
+.nvlink::before {
+  content: '';
+  position: absolute;
+  margin-bottom: -1px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: greenyellow;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 0.32s;
+}
+
+.nvlink:hover::before {
+  scale: 1;
+}
+
+#logo {
+  margin-left: 0.8em;
+  font-size: larger;
+  font-weight: bold;
+  /* letter-spacing: -3.2px; */
+  /* -webkit-text-decoration-line: underline; */
+  /* text-decoration-line: underline; */
+  text-decoration-thickness: 6px;
+}
+
+.contact-box {
+  color: black;
+}
+/* netlify form styles start */
+
+form {
+}
+label {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* border:  2px solid rgb(231, 200, 25); */
+  height: 2.5rem;
+}
+input {
+  outline-color: rgb(150, 226, 51);
+  height: 1.5em;
+  width: 280px;
+  color: #404040;
+  border-radius: 3px;
+  border: none;
+}
+select {
+  width: 200px;
+  height: 10vh;
+  border-radius: 3px;
+}
+option {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  
+}
+/* netlify form styles end */
+footer {
+  color: aliceblue;
+  text-align: center;
+}
+footer .cyrt {
+  margin: 10px 0;
+}
+#ur:hover {
+  color: rgb(224, 0, 0);
+}
+
+.btn {
+  height: 2.1rem;
+  width: 4.1rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+.btn:hover {
+  color: yellowgreen;
+}
+textarea {
+  border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+    font-size: 2em 100px / 1em 50px;
+  }
+  body {
+    background: rgba(0, 3, 7, 0.753);
+    background-image: url(images/bg-wlpar.jpg);
+    width: 100%;
+    -o-object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: fill;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+/*# sourceMappingURL=styles.css.map */
